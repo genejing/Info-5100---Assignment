@@ -1,3 +1,5 @@
+// suggestion: you'd better change the DFS to dfs, lower cases is required in java coding rules. Code works well.
+
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
