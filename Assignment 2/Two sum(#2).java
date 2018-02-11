@@ -1,3 +1,7 @@
+// you should write the main function to print out the value you got. also, I think there is a logic problem for your code. 
+// currently you finish your whole assignments but the code will not work out for several cases.
+
+
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
