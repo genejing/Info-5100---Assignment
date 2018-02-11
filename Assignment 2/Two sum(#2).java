@@ -1,5 +1,6 @@
-// you should write the main function to print out the value you got. also, I think there is a logic problem for your code. 
-// currently you finish your whole assignments but the code will not work out for several cases.
+// total scores : 9.5 / 10.
+//you should write the main function to print out the value you got. please pay attention to the requirements of the assignment next time. 
+
 
 
 public class Solution {
