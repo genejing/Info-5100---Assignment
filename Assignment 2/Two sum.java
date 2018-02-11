@@ -1,3 +1,5 @@
+// there is a logic problem about your code, the requirement is the return to the index of the two elements that meet the requirement.
+
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] ans = new int[2];
@@ -8,7 +10,7 @@ public class Solution {
                 ans[1] = i;
                 break;
             } else {
-                map.put(target-nums[i],i);
+                map.put(target-nums[i],i); // i think you should put (nums[i],i) in your hashmap
             }
         }
         return ans;
