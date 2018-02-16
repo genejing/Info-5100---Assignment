@@ -1,4 +1,5 @@
 // please write your main function, or scores will be deducted next time.
+// scores : 10 / 10
 import java.util.HashSet;
 import java.util.Set;
 
