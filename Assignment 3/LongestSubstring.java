@@ -1,3 +1,4 @@
+// please write your main function, or scores will be deducted next time.
 import java.util.HashSet;
 import java.util.Set;
 
