@@ -35,6 +35,6 @@ public class SwapAdjacentinLRString {
 	
 	public static void main(String[] args) {
 		SwapAdjacentinLRString sal = new SwapAdjacentinLRString();
-		System.out.println(sal.canTransform("RXXLRXRXL", "XRLXXRRLX"));
+		System.out.println(sal.canTransform("RXXLRXRXL", "XRLXXRRLX"));  // true
 	}
 }
