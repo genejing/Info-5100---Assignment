@@ -1,4 +1,4 @@
-
+// total scores : 10 / 10
 
 public class Calculator {
 	
