@@ -50,7 +50,6 @@ public class SearchForRange {
 	public static void main(String[] args) {
 		SearchForRange sfr = new SearchForRange();
 		System.out.println(Arrays.toString(sfr.searchForRange(new int[] {5,7,7,8,8,10}, 8)));
-
 	}
 
 }
