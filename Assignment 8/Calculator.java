@@ -121,26 +121,32 @@ public class Calculator extends JFrame{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			Object o = e.getSource();
-			double input1 = Double.parseDouble(first.getText());
-			double input2 = Double.parseDouble(second.getText());
-			if (o == plus) {
-				result.setText(input1 + input2 + "");
-			}
-			if (o == minus) {
-				result.setText(input1 - input2 + "");
-			}
-			if (o == multiply) {
-				result.setText(input1 * input2 + "");
-			}
-			if (o == divide) {
-				double div = input1 / input2;
-				String ans = String.format("%.2f", div);
-				result.setText(ans);
-			} if (o == buttonClear) {
+			if (o == buttonClear) {
 				first.setText("");
 				second.setText("");
 				result.setText("");
-			} 
+			}
+			if (first.getText() != null && second.getText() != null && !first.getText().equals("") && !second.getText().equals("")) {
+				double input1 = Double.parseDouble(first.getText());
+				double input2 = Double.parseDouble(second.getText());
+				
+				if (o == plus) {
+					
+					result.setText(input1 + input2 + "");
+				}
+				if (o == minus) {
+					result.setText(input1 - input2 + "");
+				}
+				if (o == multiply) {
+					result.setText(input1 * input2 + "");
+				}
+				if (o == divide) {
+					double div = input1 / input2;
+					String ans = String.format("%.2f", div);
+					result.setText(ans);
+				}
+				
+			}
 		}
 		
 	}
